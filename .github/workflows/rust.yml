@@ -42,7 +42,7 @@ jobs:
         env:
           ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
         working-directory: ./alvr/client_openxr
-        run: cargo xtask build-client
+        run: cargo xtask build-client --release
 
       - name: upload it
         uses: actions/upload-artifact@v4.6.1
