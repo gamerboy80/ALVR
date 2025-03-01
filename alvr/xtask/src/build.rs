@@ -411,7 +411,7 @@ pub fn build_android_client(profile: Profile) {
     .run()
     .unwrap();
 
-    println!("{}", build_dir);
+    println!("{:?}", build_dir);
     
     sh.copy_file(
         afs::target_dir()
