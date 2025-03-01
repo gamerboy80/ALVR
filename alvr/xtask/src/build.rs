@@ -412,6 +412,7 @@ pub fn build_android_client(profile: Profile) {
     .unwrap();
 
     println!("{:?}", build_dir);
+    println!("{:?}", std::env::current_dir());
     
     sh.copy_file(
         afs::target_dir()
