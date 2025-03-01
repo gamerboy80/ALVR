@@ -47,4 +47,4 @@ jobs:
       - name: upload it
         uses: actions/upload-artifact@v4.6.1
         with:
-          path: ./alvr/client_openxr/target/*.apk
+          path: ./build/alvr_client_android/*.apk
