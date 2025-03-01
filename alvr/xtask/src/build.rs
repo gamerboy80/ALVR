@@ -406,7 +406,7 @@ pub fn build_android_client(profile: Profile) {
     let _push_guard = sh.push_dir(afs::crate_dir("client_openxr"));
     cmd!(
         sh,
-        "cargo apk build --release --target-dir={target_dir} {flags_ref...}"
+        "cargo apk build --target-dir={target_dir} {flags_ref...}"
     )
     .run()
     .unwrap();
