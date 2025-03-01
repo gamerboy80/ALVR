@@ -122,8 +122,8 @@ name = "com.oculus.permission.BODY_TRACKING"
 name = "com.oculus.permission.EYE_TRACKING"
 [[package.metadata.android.uses_permission]]
 name = "com.oculus.permission.FACE_TRACKING"
-[[package.metadata.android.uses_permission]]
-name = "com.oculus.permission.HAND_TRACKING"
+#[[package.metadata.android.uses_permission]]
+#name = "com.oculus.permission.HAND_TRACKING"
 [[package.metadata.android.uses_permission]]
 name = "com.oculus.permission.WIFI_LOCK"
 [[package.metadata.android.application.meta_data]]
